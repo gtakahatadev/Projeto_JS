@@ -1,0 +1,48 @@
+:root {
+  --primaryColor: hsl(243, 87%, 12%);
+  --secondaryColor: hsl(238, 22%, 44%);
+  --tertiaryColor: hsl(224, 93%, 58%);
+  --baseColor: hsl(0, 0%, 59%);
+  --backgroundColor: hsl(0, 0%, 100%);
+  --headingFont: "Raleway", sans-serif;
+  --bodyFont: "Open Sans", sans-serif;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  font-family: var(--bodyFont);
+  color: var(--primaryColor);
+}
+/* sessão header */
+.header {
+
+  padding: 32px;
+}
+
+.header__menu {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.header__img{
+width: 160px;
+height: 49px;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  width: 271px;
+  gap: 16px;
+}
+
+.nav__item {
+}
+
+.header__hero {
+
+}
