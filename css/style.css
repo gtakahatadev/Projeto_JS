@@ -16,33 +16,76 @@ html {
 }
 /* sessão header */
 .header {
-
   padding: 32px;
 }
 
 .header__menu {
-
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  margin-bottom: 86px;
 }
 
-.header__img{
-width: 160px;
-height: 49px;
+.header__img {
+  width: 160px;
+  height: 49px;
 }
 
 .header__nav {
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 400;
   display: flex;
   align-items: center;
   width: 271px;
   gap: 16px;
+  justify-content: space-between;
 }
 
 .nav__item {
 }
 
 .header__hero {
+  display: flex;
+  justify-content: space-between;
+}
 
+.left__title {
+  font-family: "Raleway";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  color: var(--primaryColor);
+}
+
+.left__parag {
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--primaryColor);
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.form__input {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  width: 320px;
+  height: 45px;
+  padding-left: 20px;
+}
+
+.form__button {
+  font-family: "Raleway";
+  font-size: 14px;
+  font-weight: 700;
+  background-color: var(--tertiaryColor);
+  color: var(--backgroundColor);
+  width: 200px;
+  height: 45px;
+  border-radius: 5px;
+  margin-left: 16px;
+  border-color: var(--tertiaryColor);
 }
