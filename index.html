@@ -14,28 +14,32 @@
     <link rel="stylesheet" href="./css/style.css" class="css" />
   </head>
 
-  <!-- Section Header -->
+  <!-- ========================================
+         HEADER
+  ========================================= -->
 
   <body>
     <header class="header">
       <nav class="header__menu">
-        <img class="header__img" src="./assets/logo_black.svg" alt="" />
+        <img class="header__logo" src="./assets/logo_black.svg" alt="" />
         <ul class="header__nav">
-          <li class="nav__item">Features</li>
-          <li class="nav__item">Team</li>
-          <li class="nav__item">Sign In</li>
+          <li class="header__nav-item">Features</li>
+          <li class="header__nav-item">Team</li>
+          <li class="header__nav-item">Sign In</li>
         </ul>
       </nav>
 
-      <!-- Section Hero -->
+      <!-- ========================================
+         HERO
+  ========================================= -->
 
-      <section class="header__hero">
-        <div class="hero__left">
-          <h2 class="left__title" id="left-title">
+      <section class="hero">
+        <div class="hero__content">
+          <h2 class="hero__title" id="hero-title">
             All your files in one secure <br />
             location, accessible anywhere.
           </h2>
-          <p class="left__parag">
+          <p class="hero__description">
             Fylo stores your most important files in one secure location. Access
             <br />
             them wherever you need, share and collaborate with friends, family,
@@ -44,24 +48,26 @@
           </p>
           <span class="hero__form">
             <input
-              class="form__input"
+              class="hero__input"
               type="email"
               placeholder="Enter your email..."
-              id="form_input"
+              id="hero-input"
             />
-            <button class="hero__button" id="form-button">Get Started</button>
+            <button class="hero__button" id="hero-button">Get Started</button>
           </span>
         </div>
-        <div class="hero__right">
-          <img class="right__img" src="./assets/img_hero.svg" alt="" />
+        <div class="hero__image">
+          <img class="hero__img" src="./assets/img_hero.svg" alt="" />
         </div>
       </section>
     </header>
 
-    <!-- Section Productive -->
+    <!-- ========================================
+         PRODUCTIVE
+  ========================================= -->
 
     <main class="productive">
-      <div class="productive__left">
+      <div class="productive__content">
         <h2 class="productive__title">Stay productive, wherever you are</h2>
         <p>
           Never let location be an issue when accessing your files. Fylo has you
@@ -78,62 +84,66 @@
         >
         <img src="./assets/founder.svg" alt="" />
       </div>
-      <div class="productive__right">
+      <div class="productive__image">
         <img src="./assets/img_productive.svg" alt="" />
       </div>
     </main>
 
-    <!-- Section Meio -->
+    <!-- ========================================
+         CTA
+  ========================================= -->
 
-    <section class="form">
-      <div class="form__left">
-        <h3 class="form__title">Get early access today</h3>
-        <p class="form__p">
+    <section class="cta">
+      <div class="cta__content">
+        <h3 class="cta__title">Get early access today</h3>
+        <p class="cta__description">
           It only takes a minute to sign up and our free starter tier is<br />
           extremely generous. If you have any questions, our support team <br />
           would be happy to help you.
         </p>
       </div>
-      <form action="" class="form__right">
+      <form action="" class="cta__form">
         <input
-          class="right__input"
+          class="cta__input"
           type="email"
           placeholder="email@example.com"
-          id="form-input-two"
+          id="cta-input"
         />
-        <button class="form__button">Get Started For Free</button>
+        <button class="cta__button">Get Started For Free</button>
       </form>
     </section>
 
-    <!-- Section Footer -->
+    <!-- ========================================
+         FOOTER
+  ========================================= -->
 
     <footer class="footer">
-      <div class="footer__one">
+      <div class="footer__info">
         <img class="footer__img" src="./assets/logo_white.svg" alt="" />
-        <span class="contact">
+        <span class="footer__contact">
           <img src="./assets/img_phone.png" alt="" />
           <p>Phone: +1-543-123-4567</p>
         </span>
-        <span class="contact">
+        <span class="footer__contact">
           <img src="./assets/email.png" alt="" />
           <p>example@fylo.com</p>
         </span>
       </div>
-      <div class="footer__two">
-        <p class="source">About Us</p>
-        <p class="source">Jobs</p>
-        <p class="source">Press</p>
-        <p class="source">Blog</p>
+      <div class="footer__links">
+        <p class="footer__link">About Us</p>
+        <p class="footer__link">Jobs</p>
+        <p class="footer__link">Press</p>
+        <p class="footer__link">Blog</p>
       </div>
-      <div class="footer__three">
-        <p class="source">Contact Us</p>
-        <p class="source">Terms</p>
-        <p class="source">Privacy</p>
+      <div class="footer__support">
+        <p class="footer__link">Contact Us</p>
+        <p class="footer__link">Terms</p>
+        <p class="footer__link">Privacy</p>
       </div>
-      <div class="footer__four">
-        <img class="source__img" src="./assets/face.svg" alt="" />
-        <img class="source__img" src="./assets/twitter.svg" alt="" />
-        <img class="source__img" src="./assets/insta.svg" alt="" />
+      <div class="footer__social">
+        <img class="footer__social-icon" src="./assets/face.svg" alt="" />
+        <img class="footer__social-icon" src="./assets/twitter.svg" alt="" />
+        <img class="footer__social-icon" src="./assets/insta.svg" alt="" />
       </div>
     </footer>
     <script src="./script.js"></script>
