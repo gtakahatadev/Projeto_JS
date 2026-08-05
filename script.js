@@ -4,6 +4,6 @@
 
 // Capturar as informações das caixas de texto e mandar para o Backend;
 
-let formInput = document.getElementById("form-input");
-let formInputTwo = document.getElementById("form-input-two");
-let mainTitle = document.getElementById("left-title");
+let formInput = document.getElementById("hero-input");
+let formInputTwo = document.getElementById("cta-input");
+let mainTitle = document.getElementById("hero-title");
